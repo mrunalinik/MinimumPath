@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.minimumpath.ui.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Enter digits separated by space" />
+
+    <EditText
+        android:id="@+id/data_input_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/clear_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Clear Data"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/example_matrix_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example 1"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/example_matrix_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example 2"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/example_matrix_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example 3"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Find Minimum Path"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/result_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Result"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>
